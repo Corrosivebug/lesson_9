@@ -1,0 +1,110 @@
+*{
+    margin: 10px auto;
+    text-align: center;
+    display: block; 
+
+}
+body{
+    background-color: rgb(153, 152, 149);
+}
+.box_wap img{
+    max-width: 100%;
+
+}
+.box_wrap {
+    width: 80%;
+    height: 400ps;
+    background-color: rgb(53, 40, 40);
+    display: flex;
+    border-radius: 20px;
+}
+.box_img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.mother{
+    width: 30%;
+}
+.box_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.pov{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.img_pow1{
+    width: 30%;
+    height: 100%;
+    background: url(./img/1200x600.jpg);
+}
+.img_pow2{
+    width: 30%;
+    height: 100%;
+    background: url(./img/400x600.png) no-repeat;
+}
+.img_pow3{
+    width: 30%;
+    height: 100%;
+    background: url(./img/800x600.jpg) no-repeat;
+    background-size: 100%;
+} 
+.box_transform{
+    width: 50%;
+    height: 200px;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color:wheat   ;
+    transform: skew(20deg);
+    animation: skew 3s infinite;
+}
+@keyframes skew{
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewY(20deg);
+    }
+}
+.box_transform hover{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.text_1{
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+    overflow: hidden;
+    transition: all 2.5s;
+}
+.text_1:hover{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: silver;
+    overflow: scroll;
+
+}
